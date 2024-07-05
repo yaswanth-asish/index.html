@@ -1,0 +1,38 @@
+body {
+    background-color: #c5c0c0ee; 
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+  }
+  h1 {
+    text-align: center;
+    color: #000000; 
+  }
+  .center-image img {
+    display: block;
+    margin: 10px auto;
+  }
+  .spaced-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .spaced-images img {
+    margin: 10px;
+    border: 1px solid #ffffff; 
+    box-shadow: 0 2px 5px rgba(2, 63, 92, 0.1); 
+  }
+  .nav-links {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .nav-links a {
+    margin: 20px;
+    text-decoration: none;
+    color: #0080ff;
+    font-size: 30px; 
+    
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
